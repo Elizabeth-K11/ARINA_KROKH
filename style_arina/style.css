@@ -1,0 +1,259 @@
+.html, body {
+margin: 0;
+padding: 0;
+font-family: 'Cormorant Garamond', serif;
+}
+
+.intro{
+display: flex;
+align-items: center;
+
+}
+
+.photo{
+display: flex;
+width: 30%;
+background-color: rgb(46, 46, 46);
+height: 700px;
+text-align: left;
+}
+
+.line{
+display: flex;
+flex-direction: column;
+border-left: 2px solid rgb(255, 255, 255);
+margin-left: 30px;
+height: 500px;
+align-items: flex-end;
+}
+
+.line_text{
+transform:rotate(90deg);
+color: white;
+text-align: center;
+font-size:30px;
+margin-top: 30px;
+padding-bottom: -10px;
+}
+
+.intro_img{
+width: 80%;
+height: 60% ;
+margin-top: 25%;
+margin-left:20%;}
+
+.intro_img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    transition: .3s;
+   }
+
+.intro_text{
+width: 40%;
+margin-left: 7%;
+margin-right: 5%;
+}
+
+.intro_title{
+font-size: 72px;
+color: black;
+font-family: 'Yeseva One', cursive;
+}
+
+.text{
+color: black;
+font-size: 25px;
+}
+
+.qote{
+height: 300px;
+text-align: center;
+align-items: center;
+border-bottom: 2px solid #000 ;
+}
+
+.qote_text{
+    width: 50%;
+    margin: 0 auto;
+margin-top: 5%;
+font-size: 40px;
+font-family: 'Yeseva One', cursive;
+
+}
+
+.block_photo{
+display: flex;
+margin-top: 5%;
+justify-content: center;
+}
+
+.block_img{
+width: 300px;
+height:300px;
+padding-left: 5px;
+}
+.block_img1{
+width: 400px;
+height: 400px;
+padding-left: 2px;
+}
+
+.block_img:hover{ 
+width: 310px;
+height:310px;
+border-radius: 50%;
+transition: 1s;
+}
+
+.block_img1:hover{
+width: 410px;
+height: 410px;
+border-radius: 50%;
+transition: 1s;
+}
+
+.about{
+display: flex;
+margin-top: 5%;
+}
+
+.about_item{
+width: 60%;
+display: flex;
+margin: 0 auto;
+}
+
+.about_titie{
+font-size: 50px;
+text-align: right;
+font-family: 'Yeseva One', cursive;
+
+}
+
+.about_text{
+font-size:25px ;
+margin-left: 5%;
+text-align: left;
+
+}
+
+.img{
+display: flex;
+margin-top: 5%;
+height: 400px;
+justify-content: center;
+}
+
+.text_start{
+width: 25%;
+font-size: 60px;
+font-family: 'Yeseva One', cursive;
+text-align: right;
+}
+
+.text_end{
+    width: 25%;
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;  
+    text-align: left;
+    padding-top: 300px;
+}
+
+
+.animate{
+
+    position:relative;
+  
+  
+    width:280px; /* Ширина */
+  
+    height: 350px;  /* Высота */                
+  
+  }
+  
+  .animate img {
+  
+    position:absolute; /* абсолютное позиционирование*/
+  
+    left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+  
+    top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+  
+  }
+
+.img1{
+width: 280px;
+height: 350px;
+opacity: 1;
+transition: .6s;
+}
+.img2{
+width: 280px;
+height: 350px;
+opacity: 0;
+transition: .6s;
+ }
+
+.img1:hover{
+    width: 280px;
+    height: 350px;
+    opacity: 0;
+    transition: .6s;
+    }
+    .img2:hover{
+    width: 280px;
+    height: 350px;
+    opacity: 1;
+    transition: .6s;
+
+     }
+
+     .footer{
+         margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        background-color: #b8b8b8ce;
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        }
+            
+            
+        .footer_soc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:10px ;     
+        }
+            
+        .f_img{
+        width: 50px;
+        height: 50px;
+        } 
+            
+        .f__img{
+        width: 50px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+            
+        .f_img:hover{
+        width: 60px;
+        height: 60px;
+        transition: .3s;
+        }
+                    
+        .f__img:hover{
+        width: 60px;
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: .3s;
+        }
+        
+        .f_text{
+        font-size: 25px;
+        
+    
+        }
